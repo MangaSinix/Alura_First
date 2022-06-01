@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta chartset="utf-8">
+        <title>"Contato</title>
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+
+    <body>
+        <header> 
+                    <div class="box">
+                        <h1><img src="IMG/logo.png"></h1>
+
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home    </a></li>
+                                <li><a href="contato.html">Contato </a></li>
+                                <li><a href="produto.html">Produtos</a></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+        </header>
+        <main class="main-produto">
+            <form>
+                <label for="nomesobrenome">Nome E sobrenome</label>
+                <input type="text" id="nomesobrenome" class="padrao-input" required>
+
+                <label for="email"> Digite Seu e-mail</label>
+                <input type="e-mail" id="email" class="padrao-input" placeholder="Digite Seu e-mail">
+
+                <label for="telefone">Digite seu telefone</label>
+                <input type="tel" id="telefone" class="padrao-input">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="50" rows="10" id="mensagem" class="padrao-input">
+                </textarea>
+                <div class="contato">
+                    <p> Como prefere o nosso contato </p>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp </label>
+                    
+                </div> <!-- Contato -->
+                <div>
+                     <p> Qual horário prefere ser atendido</p>
+                    <select>
+                        <option> Manhã </option>
+                        <option> Tarde </option>
+                        <option> Noite </option>
+                    </select>
+                </div>
+                <label class="checkbox"><input type="checkbox">Gostaria de receber newslatters por e-mail?</label>
+                
+                    <table>
+                        <thead>
+                            <tr> 
+                                <th> País</th>
+                                <th> Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr> 
+                                <td> Brazil</td>
+                                <td> Brasiliria</td>
+                            </tr>
+                            <tr> 
+                                <td> Estados unidos</td>
+                                <td> Nova iorgue </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                <input type="submit" value="Enviar Formulário" class="padrao-input">
+
+            </main>
+        </form>
+        <footer>
+            <img src="IMG/logo-branco.png">
+            <p class="copyright">&copy; Todos os direitos reservados para o manga</p>
+
+        </footer>
+
+
+    </body>
+
+</html>
